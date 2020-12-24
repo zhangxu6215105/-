@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1203447",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "f0082",
+      "unicode_decimal": 983170
+    },
+    {
+      "icon_id": "1273789",
+      "name": "icon_facebook",
+      "font_class": "facebook",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "1330571",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "7192356",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e721",
+      "unicode_decimal": 59169
+    },
+    {
+      "icon_id": "8236814",
+      "name": "水滴",
+      "font_class": "fenzu",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "9626870",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e86e",
+      "unicode_decimal": 59502
+    },
+    {
+      "icon_id": "11756204",
+      "name": "衣架",
+      "font_class": "V",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "14835597",
+      "name": "左箭头",
+      "font_class": "arrowLeft-fill",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    }
+  ]
+}

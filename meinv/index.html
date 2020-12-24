@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>移动端商城</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<script src="font/iconfont.js"></script>
+	 <script>
+	    window.onload = window.onresize = function(){
+	        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+	        var _html = document.getElementsByTagName('html')[0];
+	        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+	    }
+	</script>
+	<style>
+		.icon {
+		  width: 2rem;
+		  height: 2rem;
+		  vertical-align: -0.15em;
+		  fill: currentColor;
+		  overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="top cearfix">
+			<span class="iconfont fl">&#xe65d;</span>
+			<h6 class="fl">Woman, Dresses</h6>
+			<span class="iconfont icon-gouwuche fr"><i>3</i></span>
+		</div>
+		<div class="btn cearfix">
+			<a href="#" class="btn1 fl">ADD TO WISHLIST</a><a href="#" class="btn2 fr">ADD TO CART</a>
+		</div>
+	</header>
+	
+<div class="bn">
+	<div class="banner">
+		<div>
+			<img src="images/img.jpg" alt="">
+		</div>
+		<div class="bn_text">
+			<p class="fl">Elegant Pink Dresses</p>
+			<a href="#" class="fr">$605.00</a>
+		</div>
+	</div>
+	
+	<div class="banner">
+		
+		<div class="bn_text mt22">
+			<p class="fl jia">Description</p>
+			
+		</div>
+	</div>
+	
+	<div class="banner choose">
+		<span class="iconfont icon-fenzu yj"></span>
+		<p class="p1">Colour:</p>
+		<p class="p2">Choose a colour for item</p>
+		<ul>
+			<li class="lx"></li>
+			<li class="lxx"></li>
+			<li class="lxxx"></li>
+		</ul>
+		<hr>
+		<span class="iconfont icon-V yd"></span>
+		<p class="p1">Size:</p>
+		<p class="p2">Size available for this item</p>
+		<ul class="u1">
+			<li>6</li>
+			<li>8</li>
+			<li>10</li>
+			<li>12</li>
+			<li class="l1">14</li>
+		</ul>
+	</div>
+	<div class="add"><a href="">Add to Cart</a></div>
+	<span class="so">SHARE ON</span>
+	<div class="xian"><hr></div>
+	<div class="footer">
+	<div class="biao">
+	<svg class="icon" aria-hidden="true">
+		<use xlink:href="#icon-twitter"></use>
+	</svg>
+	</div>
+	<span>205</span>
+	<div class="biao">
+	<svg class="icon" aria-hidden="true">
+		<use xlink:href="#icon-facebook"></use>
+	</svg>
+   	</div>
+	<span>332</span>
+	<div class="biao">
+	<svg class="icon" aria-hidden="true">
+		<use xlink:href="#icon-weibo"></use>
+	</svg>
+	</div>
+	<span>112</span>
+	</div>
+</div>
+</body>
+</html>

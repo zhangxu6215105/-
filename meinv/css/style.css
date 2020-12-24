@@ -1,0 +1,198 @@
+body{
+	background-color: #E8E8E8;
+}
+header{
+	background-color: #38474F;
+	padding: 0.75rem 0.6rem 0.375rem 0.6rem;
+	position: fixed;
+	left: 0; top: 0;
+	width: 16rem;
+	box-sizing: border-box;
+
+}
+header h6{
+	color: #fff;
+	margin-left: 1.125rem;
+}
+
+header span{
+	font-size: 0.625rem;
+	position: relative;
+}
+header span i{
+	width: 0.7rem;
+	height: 0.45rem;
+	background-color: #fff;
+	position: absolute;
+	right: -0.525rem; top:-0.15rem;
+	border-radius: 8px;
+	font-size: 12px;
+	color: black;
+	text-align: center;
+	line-height: 0.45rem;
+}
+header .top{
+     line-height: 0.65rem;
+	 margin-bottom: 0.925rem;
+}
+
+header .btn a{
+	width: 7.175rem;
+
+	height: 1.575rem; 
+	line-height: 1.575rem;
+	font-size: 0.7rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+}
+header .btn .btn2{
+	background-color: #F6846A;
+}
+header .btn .btn1{
+	background-color: black;
+}
+.bn{
+	margin-top:4.925rem;
+	box-sizing: border-box;
+	padding: 0 0.6rem;
+	
+}
+.banner{
+	width: 14.8rem;
+	border-radius: 6px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.banner img{
+	width: 14.8rem;
+}
+.banner .bn_text{
+	height: 1.675rem;
+	line-height: 1.675rem;
+	padding: 0.65rem 0;
+	font-size: 0.6rem;
+}
+.bn_text p{
+	margin-left: 1.1rem;
+	font-weight: bold;
+}
+.bn_text a{
+	margin-right: 0.6rem;
+	width: 3.6rem;
+	height: 1.9rem;
+	background-color: #BFBFC4;
+	text-align: center;
+	line-height: 1.9rem;
+	color: #fff;
+	border-radius: 3px;
+}
+.mt22{
+	margin: 0.55rem 0;
+}
+.jia{
+		background: url(../images/jia.jpg) no-repeat 0 center;
+		padding-left: 1.7rem;
+		background-size: 0.6rem 0.6rem;
+}
+.choose{
+	text-align: center;
+}
+.choose .p1{
+	display: inline-block;
+	font-size: 0.5rem;
+}
+.choose .yj{
+	font-size: 0.65rem;
+}
+.choose .p2{
+	font-size: 0.5rem;
+	color: #A6A6AD;
+}
+.choose ul{
+	margin-top: 0.75rem;
+}
+.choose ul li{
+	width: 1.775rem;
+	height: 1.775rem;
+	display: inline-block;
+	margin-right: 0.625rem;
+	border-radius: 2px;
+}
+.choose ul li.lx{
+	background: url(../images/duigou.jpg) no-repeat center center #F0C9CE;
+}
+.choose ul li.lxx{
+	background-color: #AF687A;
+}
+.choose ul li.lxxx{
+	background-color: #87A6B2;
+	margin-right: 0;
+}
+.choose hr{
+	width: 11.35rem;
+	height: 2px;
+	background-color: #DCDCDC;
+	margin-top: 0.5rem;
+	margin-left: 1.775rem;
+	border: none;
+}
+.choose .u1 li{
+	background-color: #DADADE;
+	margin-right: 0.3rem;
+	font-size: 0.45rem;
+	line-height: 1.775rem;
+	text-align: center;
+	margin-bottom: 1.1rem;
+}
+.choose .u1 li:hover{
+	background-color: #67B0D6;
+	color: #FFFFFF;
+}
+.choose .u1 .l1{
+	margin-right: 0;
+}
+.add{
+	box-shadow: 0 1px 3px rgba(0,0,0,.3);
+	width: 6.925rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	background-color: #3A4144;
+	border-radius: 4px;
+	margin-left: 4.05rem;
+	margin-top: 1.6rem;
+	text-align: center;
+	font-size: 0.4rem;
+	margin-bottom: 1.85rem;
+}
+.add a{
+	color: #F8F8F8;
+}
+.so{
+	font-size: 0.45rem;
+	font-weight: bold;
+}
+.xian{
+	display: inline-block;
+}
+.xian hr{
+	width: 10.75rem;
+	height: 2px;
+	background-color:#C9CBCC;
+	border: none;
+	margin-left: 0.925rem;
+}
+.footer span{
+	font-size: 0.3rem;
+	display: inline-block;
+	width: 1.9rem;
+	height: 1.125rem;
+	background: url(../images/duihua.jpg) no-repeat left center;
+	padding-left: 0.5rem;
+	padding-top: 0.8rem;
+}
+.footer .biao{
+	margin-top: 58px;
+	padding-top: 20px;
+	display: inline-block;
+}
